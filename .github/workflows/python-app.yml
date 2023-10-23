@@ -85,4 +85,4 @@ jobs:
           registry-url: oci://889772146711.dkr.ecr.us-east-1.amazonaws.com/
           username: AWS
           access-token: ${{ steps.ecr_login.outputs.result }}
-          chart-folder: helm/ravi-devops-journey
+          chart-folder: helm/ravi-devops-journey-helm
